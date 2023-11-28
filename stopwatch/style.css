@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    background: url(img/road-1072821_640.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+#play{}
+#pause{}
+#reset{}
